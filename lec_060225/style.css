@@ -9,6 +9,7 @@ h1,h2{
 }
 section{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     margin-left: 15%;
@@ -22,28 +23,26 @@ section{
     margin-bottom: 200px;
 }
 .nav .btn-1{
-    margin-right: 3%;
+    margin-right: 4%;
     text-align: center;
     border-radius: 30px;
-    padding: 15px 40px;
+    padding: 10px 40px;
     outline: none;
     cursor: pointer;
     background-color: #ffff;
     color:hsl(322, 100%, 66%) ;
-    font-size: 20px;
+    font-size: 15px;
     border-color:rgb(255, 82, 191) ;
-    box-shadow:  3px 3px 10px #e1dfdfee;
-   
-   
-
+    box-shadow:  1px 3px 10px #e1dfdfee;
+  
 }
 .main h1{
     text-align: center;
     font-family: Poppins;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     color: hsl(192, 100%, 9%);
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 }
 
 .desc-container{
@@ -54,27 +53,28 @@ section{
 }
 .description{
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     margin-right: 20%;
     margin-left: 20%;
     color: #303a38d0;
     line-height: 1.2;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     
 }
 
 .btn-2{
   text-align: center;
     border-radius: 35px ;
-    padding: 15px 80px;
+    padding: 12px 60px;
     outline: none;
     color: #ffff;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 25px;
     background-color: hsl(322, 100%, 66%);
     box-shadow: 3px 3px 10px #e1dfdfee;
     margin-bottom: 100px;
+    border: none;
 }
 .screen-mockup{
     margin-bottom: 100px;
@@ -92,6 +92,7 @@ section{
     margin-bottom: 20px;
     margin-left: 10%;
     margin-right: 15%;
+    
 }
 .users-count h2{
     font-weight: 700;
@@ -109,7 +110,7 @@ section{
     margin-right: 15%;
     font-size: 25px;
     font-weight: 400;
-    color: hsl(192, 100%, 9%) ;
+    color: #303a38d0;
     margin-bottom: 150px;
 }
 .desc2{
@@ -130,20 +131,22 @@ section{
 }
 .middle-1-container h2{
     font-weight: 700;
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 15%;
     color: hsl(192, 100%, 9%) ;
-    margin-bottom: 40px;
+    margin-bottom: 8px;
 }
 .grow-together{
-    margin-right:15% ;
+    margin-right:10% ;
+    height: 400px;
     
 }
 
 .middle-1-container p{
     font-weight: 400;
     margin-left: 15%;
-    
+    margin-right: 150px;
+    color: #303a38d0;
 
 }
 .section-bottom{
@@ -158,22 +161,23 @@ section{
     
 }
 .illustration{
-    height: 600px;
+    height: 400px;
+    margin-left: 10%;
 }
 .middle-2-container h2{
 
     font-weight: 700;
     font-size: 40px;
     margin-left: 25%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
 }
 .middle-2-container p{
     font-weight: 400;
     margin-left: 25%;
-    font-size: 20px;
+    font-size: 15px;
     color: rgba(48, 58, 56, 0.816);
-    margin-right: 12px;
+    margin-right: 50px;
     
    
 }
@@ -185,29 +189,31 @@ section{
     display: flex;
     flex-direction: row-reverse;
     background-color:  hsl(207, 100%, 98%);
-   align-items: center;
+    align-items: center;
 }
 .middle-3-container img{
-    height: 600px;
+    height: 400px;
     width: 800px;
+    margin-right: 100px;
 }
 .middle-3-container h2{
     font-weight: 700;
     font-size: 40px;
-    margin-left: 15%;
-    margin-bottom: 30px;
-    color: rgba(48, 58, 56, 0.816);
+    margin-left: 18%;
+    margin-bottom: 20px;
+    /* color: rgba(48, 58, 56, 0.816); */
 
 }
 .middle-3-container p{
     margin-left: 160px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 200px;
+     color: rgba(48, 58, 56, 0.816);
     
 }
 .section-bottom2{
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .footer-heading{
@@ -216,9 +222,9 @@ section{
     align-items: center;
     justify-content: center;
 }
-.footer-heading h1{
+.footer-heading h2{
     text-align: center;
-    font-size: 60px;
+    font-size: 45px;
     color: hsl(192, 100%, 9%);
     margin-bottom: 30px;
 
@@ -226,14 +232,15 @@ section{
 .btn-3{
     text-align: center;
     border-radius: 35px ;
-    padding: 15px 80px;
+    padding: 15px 70px;
     outline: none;
     color: #ffff;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 20px;
     background-color: hsl(322, 100%, 66%);
     box-shadow: 3px 3px 10px #e1dfdfee;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
+    border: none;
 }
 .footer-top{
     width: 100%;
@@ -242,30 +249,90 @@ section{
 footer{
     margin-top: -5px;
     display: flex;
+    justify-content: space-around;
     background-color: hsl(192, 100%, 9%) ;
     color: #ffff;
     align-items: center;
+    height: 500px;
 }
 
 .footer-img{
-    margin-top: -50px;
+    margin-top: -100px;
+    margin-right: 5px;
+    
 }
 .footer-1{
-    margin-left: 10%;
+    margin-top: -30px;
+    margin-left: 3%;
     max-width: 20%;
-    margin-right: 300px;
+    margin-right: 100px;
+    
 }
 
 .footer-2{
-    max-width: 20%;
+    max-width: 30%;
+    margin-right: 35px;
     
+    
+}
+.footer-desc{
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.footer-2 p{
+    font-weight: 400;
+    font-size: 15px;
+     margin-bottom: 50px;
 }
 
 .footer-3{
     margin-top: -100px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    
 }
 
+
+input{
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.btn-4{
+    padding: 10px 40px;
+    background-color:hsl(322, 100%, 66%) ;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.footer-icon{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 8px;
+}
+
+#envelope{
+    margin-bottom: 30px;
+}
+
+.connections{
+    display: flex;
+    gap: 30px;
+    
+}
+.connections i{
+    font-size: 25px;
+    cursor: pointer;
+    
+}
 
 
 
