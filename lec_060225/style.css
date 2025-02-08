@@ -7,6 +7,7 @@
 h1,h2{
     font-family: Poppins;
 }
+
 section{
     display: flex;
     flex-wrap: wrap;
@@ -333,6 +334,143 @@ input{
     cursor: pointer;
     
 }
+
+@media (max-width: 376px) {
+    .nav {
+        margin-bottom: 150px;
+    }
+
+    .nav img{
+        width: 120px;
+    }
+
+    .nav .btn-1 {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    .main h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .description {
+        font-size: 14px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .btn-2 {
+        padding: 10px 40px;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .screen-mockup {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .icon-container {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .users-count {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .users-count h2 {
+        font-size: 40px;
+    }
+
+    .users-description {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .desc2 {
+        margin-right: 0;
+    }
+
+    .middle-1-container, .middle-2-container, .middle-3-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .middle-1-container h2, .middle-2-container h2, .middle-3-container h2 {
+        margin-left: 0;
+        font-size: 24px;
+    }
+
+    .middle-1-container p, .middle-2-container p, .middle-3-container p {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 14px;
+    }
+
+    .grow-together, .illustration, .middle-3-container img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .footer-heading h2 {
+        font-size: 24px;
+    }
+
+    .btn-3 {
+        padding: 10px 40px;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer-1, .footer-2 {
+        max-width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .footer-img {
+        margin-top: 0;
+    }
+
+    .footer-3 {
+        margin-top: 0;
+    }
+
+    input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .btn-4 {
+        width: 100%;
+    }
+
+    .connections {
+        justify-content: center;
+    }
+}
+
+
+
 
 
 
