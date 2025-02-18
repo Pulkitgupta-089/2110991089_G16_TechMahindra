@@ -65,7 +65,7 @@ function maincourseorfer(callback){
 }
 
 function dessert(callback){
-    console.log("derssert ordered")
+    console.log("dessert ordered")
     setTimeout(callback,7000)
 }
 
