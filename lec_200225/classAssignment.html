@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-   <nav>
-    <h1>Github</h1>
-   </nav> 
-</body>
+  </head>
+  <body>
+    <nav>
+      <h1 id="main-heading">Github</h1>
+    </nav>
+    <section>
+      <label>Github Username:<input type="text" id="username" /></label>
+      <button id="userfetch" onclick="fetchuserData()">Fetch Data</button>
+      <br />
+
+      <h2>User-Profile</h2>
+      <div class="user-info">
+        <div class="img-container">
+            <img
+              src="icon-messages.svg"
+              id="user-img"
+              height="100px"
+              width="100px"
+              alt="image"
+            />
+          </div>
+          <span id="fetch-user">Joe</span>
+      </div>
+      <div class="user-data">
+       <span>User Bio:</span><span class="bio">Good Developer</span>
+       <br>
+       <span>User Followers:</span><span class="followers">12</span>
+       <br>
+       <span>User Repositories:</span><span class="repo">12</span>
+
+      </div>
+     
+    </section>
+    <script src="assignment.js"></script>
+  </body>
 </html>
