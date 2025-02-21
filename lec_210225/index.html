@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #grand-parent{
+        border: 2px solid red;
+        height: 300px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white
+
+    }
+    #parent{
+        border: 2px solid blue;
+        height: 200px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+
+    }
+    #child{
+        border: 2px solid green;
+        height: 100px;
+        width: 100px;
+        background-color: white
+
+    }
+    #grand-parent:hover{
+        background-color: red;
+    }
+    #parent:hover{
+        background-color: blue;
+    }
+    #child:hover{
+        background-color: green;
+    }
+</style>
+<body>
+   <h1>Hello Students</h1>
+   <div id="grand-parent">
+    <div id="parent">
+        <div id="child">
+
+        </div>
+    </div>
+   </div> 
+   <script src="script.js"></script>
+</body>
+</html>
